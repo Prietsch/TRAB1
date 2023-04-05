@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Literatura Brasileira</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        width: 400px;
+        height: 25px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="https://ifrs.edu.br/">
+        <img src="./img/literatura.jpg" alt="header_literatura" />
+      </a>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#">Era Colonial</a></li>
+        <li><a href="#">Período de Transição</a></li>
+        <li><a href="#">Era Nacional</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Literatura Brasileira</h1>
+      <p>
+        A história da <b>literatura brasileira</b> tem início em 1500 com a
+        chegada dos portugueses no Brasil. Isso porque as sociedades que aqui
+        estavam eram <i>ágrafas</i>, ou seja, não possuíam uma representação
+        escrita. Assim, a produção literária começa quando os portugueses
+        escrevem sobre suas impressões da terra encontrada e dos povos que aqui
+        viviam. Ainda que sejam diários e documentos históricos, esses
+        representam, as primeiras manifestações escritas em território
+        brasileiro.
+      </p>
+      <p></p>
+      <h2>Divisão da Literatura Brasileira</h2>
+
+      <ol>
+        <li>
+          Era Colonial:
+          <ul>
+            <li>Quinhentismo</li>
+            <li>Barroco</li>
+            <li>Arcadismo</li>
+          </ul>
+        </li>
+        <li>
+          Período de Transição:
+          <ul>
+            <li>
+              É considerado um momento inerte da literatura brasileira, marcado
+              pela chegada da Missão Artística Francesa, em 1816, contratada por
+              Dom João IV.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Era Nacional:
+          <ul>
+            <li>Romantismo</li>
+            <li>Realismo</li>
+            <li>Naturalismo</li>
+            <li>Parnasianismo</li>
+            <li>Simbolismo</li>
+            <li>Pré-Modernismo</li>
+            <li>Modernismo</li>
+            <li>Pós-Modernismo</li>
+          </ul>
+        </li>
+      </ol>
+      <table>
+        <caption>
+          Períodos da literatura:
+        </caption>
+        <thead>
+          <tr>
+            <th>Era</th>
+            <th>Período</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Era Colonial</td>
+            <td>1500 - 1808</td>
+          </tr>
+          <tr>
+            <td>Período de Transição</td>
+            <td>1808 - 1836</td>
+          </tr>
+          <tr>
+            <td>Era Nacional</td>
+            <td>1836 - Dias atuais</td>
+          </tr>
+        </tbody>
+      </table>
+      <figure>
+        <img src="./img/machado.jpg" alt="Machado de Assis" />
+        <figcaption>Escritor Machado de Assis</figcaption>
+      </figure>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/9T7-gOm0nGk"
+        title="YouTube video player"
+        allowfullscreen
+      ></iframe>
+    </main>
+    <footer>
+      <form>
+        <fieldset>
+          <legend>Dados do Leitor</legend>
+
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" /><br /><br />
+
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" /><br /><br />
+
+          <label for="idade">Telefone:</label>
+          <input type="tel" id="idade" name="idade" /><br /><br />
+
+          <label for="cidade">Cidade:</label>
+          <input type="text" id="cidade" name="cidade" /><br /><br />
+
+          <label for="estados">Estado:</label>
+          <select id="estados" name="estados">
+            <option value="AC">Acre</option>
+            <option value="AL">Alagoas</option>
+            <option value="AP">Amapá</option>
+            <option value="AM">Amazonas</option>
+            <option value="BA">Bahia</option>
+            <option value="CE">Ceará</option>
+            <option value="DF">Distrito Federal</option>
+            <option value="ES">Espírito Santo</option>
+            <option value="GO">Goiás</option>
+            <option value="MA">Maranhão</option>
+            <option value="MT">Mato Grosso</option>
+            <option value="MS">Mato Grosso do Sul</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="PA">Pará</option>
+            <option value="PB">Paraíba</option>
+            <option value="PR">Paraná</option>
+            <option value="PE">Pernambuco</option>
+            <option value="PI">Piauí</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="RN">Rio Grande do Norte</option>
+            <option value="RS">Rio Grande do Sul</option>
+            <option value="RO">Rondônia</option>
+            <option value="RR">Roraima</option>
+            <option value="SC">Santa Catarina</option>
+            <option value="SP">São Paulo</option>
+            <option value="SE">Sergipe</option>
+            <option value="TO">Tocantins</option>
+          </select>
+          <br /><br />
+          <label for="aniversario">Data de Nascimento:</label>
+          <input type="date" id="aniversario" name="aniversario" /><br /><br />
+
+          <p>Selecione seu Sexo:</p>
+          <input type="radio" id="masculino" name="sexo" value="masculino" />
+          <label for="masculino">Masculino</label>
+
+          <input type="radio" id="feminino" name="sexo" value="feminino" />
+          <label for="feminino">Feminino</label>
+
+          <input
+            type="radio"
+            id="nao_informado"
+            name="sexo"
+            value="nao_informado"
+          />
+          <label for="nao_informado">Prefiro não informar</label>
+
+          <br /><br />
+          <input type="submit" value="Enviar" />
+        </fieldset>
+      </form>
+    </footer>
+  </body>
+</html>
